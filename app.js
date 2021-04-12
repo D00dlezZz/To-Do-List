@@ -1,7 +1,9 @@
 const form = document.querySelector('.select-section');
 let sort = document.querySelector('.sort-down');
-let add = document.querySelector('.button');
-let input = document.querySelector('input');
+let addBtn = document.querySelector('.button');
+let task = document.querySelector('input');
+let section = document.querySelector('.input-section')
+let clone = document.querySelector('.clone-input')
 
 let arr = [];
 
@@ -15,17 +17,22 @@ sort.addEventListener('click', () => {
     }
 });
 
-add.addEventListener('click', () => { 
-    arr.push({text:input.value})
-    addTask ()
+addBtn.addEventListener('click', () => { 
+    console.log(arr);
+    addTask() ;
 });
 
 
-function addTask (){
-    let newTr = document.createElement('.clone-input');
-    newTr.innerHTML = `${input.value}`;
-    document.querySelector('.input-section').append(newTr);
-};
+
+
+function addTask() {
+    arr.push({text:task .value})
+    let cloneSec = clone.cloneNode(true);
+    section.appendChild(cloneSec);
+    task .value = "";
+    console.log(section);
+}
+
 
 
 
