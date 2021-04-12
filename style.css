@@ -19,6 +19,7 @@
 
 h2 {
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 .select-section{
     margin-bottom: 15px;
@@ -32,13 +33,16 @@ h2 {
     border-style: solid;
     border-color: #C4C4C4;
     border-radius: 13px;
-    border-width: 2px;
+    border-width: 1px;
 }
 .input {
     border-style: none;
     height: 38px;
     border-radius: 13px;
-    width: 233px;
+    width: 223px;
+    padding-left: 10px;
+    outline: none;
+    
 }
 
 .delete {
@@ -49,6 +53,7 @@ h2 {
     border-radius: 20px;
     width: 20px;
     height: 20px;
+    outline: none;
 }
 
 .sort {
@@ -57,6 +62,7 @@ h2 {
 }
 
 .button {
+    outline: none;
     background: url(/img/+.svg) no-repeat;
     font-family: "Roboto", sans-serif;
     color: #fff;
