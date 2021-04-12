@@ -26,7 +26,7 @@ h2 {
     display: block;
 }
 .input-section {
-    display: flex;
+    display: block;
     width: 286px;
     height: 40px;
     margin-left: 28px;
@@ -45,6 +45,10 @@ h2 {
     
 }
 
+.clone-input {
+    display: flex;
+}
+
 .delete {
     margin-top: 10px;
     margin-bottom: 9px;
@@ -56,12 +60,22 @@ h2 {
     outline: none;
 }
 
-.sort {
+.delete:hover {
+    background-color: #833AE0;
+}
+
+.sort-down {
+    background: url(/img/down.svg);
     margin-bottom: 11px;
     margin-left: 281px;
+    width: 25px;
+    height: 15px;
+    outline: none;
+    border-style: none; 
 }
 
 .button {
+    margin-top: 18px;
     outline: none;
     background: url(/img/+.svg) no-repeat;
     font-family: "Roboto", sans-serif;
@@ -80,4 +94,12 @@ h2 {
     position: absolute;
     left: 0px;
     top: 0px;
+}
+.todo-list{
+    padding: 0;
+    list-style-type: none;
+    height: 38px;
+    border-radius: 13px;
+    width: 223px;
+    padding-left: 10px;
 }
