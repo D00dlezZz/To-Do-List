@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
 .container {
     display: block;
     width: 336px;
@@ -10,32 +12,56 @@
 }
 
 .header{
+    font-family: "Roboto", sans-serif;
     text-align: center;
     margin-bottom: 16px;
 }
+
+h2 {
+    margin-top: 10px;
+}
 .select-section{
     margin-bottom: 15px;
-    display: flex;
+    display: block;
 }
-.input {
+.input-section {
+    display: flex;
     width: 286px;
     height: 40px;
     margin-left: 28px;
-    border-radius: 20px;
     border-style: solid;
     border-color: #C4C4C4;
     border-radius: 13px;
     border-width: 2px;
 }
+.input {
+    border-style: none;
+    height: 38px;
+    border-radius: 13px;
+    width: 233px;
+}
+
+.delete {
+    margin-top: 10px;
+    margin-bottom: 9px;
+    background: url(/img/delete.svg);
+    border-style: none; 
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+}
 
 .sort {
+    margin-bottom: 11px;
     margin-left: 281px;
 }
 
 .button {
+    background: url(/img/+.svg) no-repeat;
+    font-family: "Roboto", sans-serif;
     color: #fff;
     position: relative;
-    padding-left: 20px;
+    padding-left: 30px;
     width: 150px;
     height: 42px;
     background-color: #833AE0;

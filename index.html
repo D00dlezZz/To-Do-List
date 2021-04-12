@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,29 @@
     <title>To-Do List</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="header">
             <img src="/img/yellow line.svg" alt="">
             <h2>To-Do List</h2>
         </div>
-       
+
         <div class="select-section">
             <label>
                 <img class="sort" src="/img/down.svg" alt="">
-                <input class="input" type="text"> 
+                <div class="input-section">
+                    <input class="input" type="text">
+                    <button class="delete"></button>
+                </div>
             </label>
         </div>
-      
-        <button class="button"><img class="plus" src="/img/+.svg" alt="">Добавить</button>
+
+        <button class="button">Добавить</button>
     </div>
-    
+
 
     <script src="app.js"></script>
 </body>
+
 </html>
