@@ -5,6 +5,8 @@ let task = document.querySelector('input');
 let section = document.querySelector('.input-section');
 let clone = document.querySelector('.clone-input');
 let deleteBtn = document.querySelector('.delete');
+let secInp = document.querySelector('.input-section');
+let container = document.querySelector('.container');
 
 let arr = [];
 console.log(sort);
@@ -20,6 +22,7 @@ sort.addEventListener('click', () => {
 
 addBtn.addEventListener('click', () => {
     console.log(arr);
+
     addTask();
 });
 
@@ -32,6 +35,8 @@ function addTask() {
         addClone.remove();
     });
     task.value = "";
+    container.style.height = "1%";
+    secInp.style.height = "1%";
     console.log(section);
 }
 
