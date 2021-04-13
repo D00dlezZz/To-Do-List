@@ -28,14 +28,11 @@ addBtn.addEventListener('click', () => {
 function workWithTasks() {
     let addClone = clone.cloneNode(true);
     section.appendChild(addClone);
+    addClone.querySelector('.input').value = "";
     addClone.querySelector('.delete').addEventListener('click', () => {
         addClone.remove();
     });
-    deleteBtn.addEventListener('click', () => {
-        clone.remove();
-    });
-    task.value = "";
-}
+};
 
 function render() {
     let tasks = document.querySelectorAll('input');
@@ -72,6 +69,6 @@ function render() {
 
     });
     arr = [];
-}
+};
 
 

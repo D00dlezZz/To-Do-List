@@ -15,14 +15,19 @@
   margin-bottom: 16px;
 }
 
-h2 {
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 900;
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
 .select-section {
   margin-bottom: 15px;
   display: block;
 }
+
 .input-section {
   display: block;
   width: 286px;
@@ -32,6 +37,7 @@ h2 {
   border-radius: 13px;
   border-width: 1px;
 }
+
 .input {
   border-style: none;
   height: 38px;
@@ -57,7 +63,7 @@ h2 {
 }
 
 .delete:hover {
-  background-color: #833ae0;
+    background: url(/img/deleteHover.svg);
 }
 
 .sort-down {
@@ -69,6 +75,7 @@ h2 {
   outline: none;
   border-style: none;
 }
+
 .sort-down:hover {
   background: url(/img/down-black.svg);
   margin-bottom: 11px;
@@ -78,6 +85,7 @@ h2 {
   outline: none;
   border-style: none;
 }
+
 .sort-up {
   background: url(/img/up.svg);
   margin-bottom: 11px;
@@ -114,16 +122,3 @@ h2 {
   margin-left: 92px;
 }
 
-.plus {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.todo-list {
-  padding: 0;
-  list-style-type: none;
-  height: 38px;
-  border-radius: 13px;
-  width: 223px;
-  padding-left: 10px;
-}
