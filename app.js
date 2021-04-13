@@ -32,6 +32,9 @@ function workWithTasks() {
     addClone.querySelector('.delete').addEventListener('click', () => {
         addClone.remove();
     });
+    deleteBtn.addEventListener('click', () => {
+        clone.remove();
+    });
 };
 
 function render() {
