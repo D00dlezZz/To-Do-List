@@ -11,14 +11,13 @@ let container = document.querySelector('.container');
 let arr = [];
 let order = 'up';
 sort.addEventListener('click', () => {
-    if (order === 'up') {
-        sort.style.background = "url('" + "/img/down-black.svg" + "')";
-        order = 'down';
-    } else {
-        sort.style.background = "url('" + "/img/up-black.svg" + "')";
+    if (order === 'down') {
         order = 'up';
+    } else {
+        order = 'down';
     }
-    render(); 
+    sort.classList.toggle('sort-up');
+    render();
 });
 
 addBtn.addEventListener('click', () => {
@@ -41,18 +40,18 @@ function workWithTasks() {
 function render() {
     let tasks = document.querySelectorAll('input');
     tasks.forEach((item) => {
-        arr.push({text:item.value});
+        arr.push({ text: item.value });
     });
     arr.sort((a, b) => {
 
-         if  (order === "up") {
+        if (order === "down") {
             if (a.text > b.text) {
                 return 1;
             } else if (a.text < b.text) {
                 return -1;
+            }
         }
-    }
-        if (order === "down") {
+        if (order === "up") {
             if (a.text > b.text) {
                 return -1;
             } else if (a.text < b.text) {
@@ -70,7 +69,7 @@ function render() {
         newInput.querySelector('.delete').addEventListener('click', () => {
             newInput.remove();
         });
-        
+
     });
     arr = [];
 }
