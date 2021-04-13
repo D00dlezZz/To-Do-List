@@ -2,7 +2,6 @@
 
 .container {
     width: 336px;
-    height: 236px;
     border-style: solid;
     border-color: #C4C4C4;
     border-radius: 13px;
@@ -27,7 +26,6 @@ h2 {
 .input-section {
     display: block;
     width: 286px;
-    height: 40px;
     margin-left: 28px;
     border-style: solid;
     border-color: #C4C4C4;
