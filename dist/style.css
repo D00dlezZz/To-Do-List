@@ -54,7 +54,7 @@
 .delete {
   margin-top: 10px;
   margin-bottom: 9px;
-  background: url(../dist/img/delete.svg);
+  background: url(img/delete.svg);
   border-style: none;
   border-radius: 20px;
   width: 20px;
@@ -64,11 +64,11 @@
 
 
 .delete:hover {
-    background: url(../dist/img/deleteHover.svg);
+    background: url(img/deleteHover.svg);
 }
 
 .sort-down {
-  background: url(../dist/img/down.svg);
+  background: url(img/down.svg);
   margin-bottom: 11px;
   margin-left: 281px;
   width: 25px;
@@ -78,7 +78,7 @@
 }
 
 .sort-down:hover {
-  background: url(../dist/img/down-black.svg);
+  background: url(img/down-black.svg);
   margin-bottom: 11px;
   margin-left: 281px;
   width: 25px;
@@ -88,7 +88,7 @@
 }
 
 .sort-up {
-  background: url(/img/up.svg);
+  background: url(img/up.svg);
   margin-bottom: 11px;
   margin-left: 281px;
   width: 25px;
@@ -98,7 +98,7 @@
 }
 
 .sort-up:hover {
-  background: url(../dist/img/up-black.svg);
+  background: url(img/up-black.svg);
   margin-bottom: 11px;
   margin-left: 281px;
   width: 25px;
@@ -110,7 +110,7 @@
 .button {
   margin-top: 18px;
   outline: none;
-  background: url(../dist/img/+.svg) no-repeat;
+  background: url(img/+.svg) no-repeat;
   font-family: "Roboto", sans-serif;
   color: #fff;
   position: relative;
