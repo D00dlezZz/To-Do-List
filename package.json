@@ -3,19 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://D00dlezZz.github.io/To-Do-List",
+  "homepage": "https://D00dlezZz.github.io/ToDo-List",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/D00dlezZz/To-Do-List.git"
+    "url": "git+https://github.com/D00dlezZz/ToDo-List.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/D00dlezZz/To-Do-List/issues"
+    "url": "https://github.com/D00dlezZz/ToDo-List/issues"
   }
 }
